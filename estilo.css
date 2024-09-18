@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    .inicio{
+        justify-content: center;
+        padding: 1%;
+        display: flex;
+        background-color: #5700cb;
+        color: white;
+        img{
+            height: 40px;
+        }
+   }
+   .Cabeca{
+    text-align: center;
+    padding: 2%;
+   }
+}
+article{
+    .banner{
+        background-image: url(img/banner.png);
+        background-size: cover;
+        height:500px;
+    }
+    .quem-somos{
+        h3{
+            text-align: center;  
+            padding-top: 30px;
+            padding-bottom: 30px;      
+        }
+        p{
+            padding-left: 20%;
+            padding-right: 20%;
+            span{
+                border: solid transparent 1px;
+                background-color: #5800cb96;
+            }
+        }
+    }
+    .tabela{
+        text-align: center;
+        h3{
+            padding-top: 30px;
+        }
+        p{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: justify;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        table{
+            margin: 0 auto;
+            color: white;
+                th{
+                   color: white;
+                   background-color: gray; 
+                   text-align: center;
+                   padding-top: 3px;
+                   padding-bottom: 3px;
+                }
+                tr:nth-of-type(odd){
+                    background-color: #5700cb;
+                }
+                tr:nth-of-type(even){
+                    background-color: #5800cb96;
+                }
+                tr{
+                    text-align: justify;
+                    td{
+                        padding-right: 190px;
+                        padding-top: 3px;
+                        padding-bottom: 3px;
+                        padding-left: 3px;
+                    }
+                }
+        }
+    }
+}
+footer{
+   background-color: #5700cb; 
+   margin-top: 25px;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
